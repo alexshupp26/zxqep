@@ -43,6 +43,7 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'autoapi.extension',
     'sphinx.ext.autosummary',
     'sphinx.ext.autodoc',
     'sphinx.ext.mathjax',
@@ -53,9 +54,19 @@ extensions = [
     'sphinx_design',
     'sphinx_copybutton',    
 ]
+autoapi_dirs = ['../zxqep']
+autoapi_ignore = ["*/tests/*",
+                  "*_version.py"]
+                  
+autoapi_options = ['members', 
+		'undoc-members', 
+		#'private-members', 
+		#'special-members', 
+		'show-inheritance', 
+		'show-module-summary', 
+		'imported-members']
 
-
-autosummary_generate = True
+# autosummary_generate = True
 napoleon_google_docstring = False
 napoleon_use_param = False
 napoleon_use_ivar = True
@@ -77,14 +88,14 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-# The name of the Pygments (syntax highlighting) style to use.
+# The name of the Pygments (syntax highlighting) style to use.S
 pygments_style = 'default'
 
 

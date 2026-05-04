@@ -72,4 +72,5 @@ Welcome to ZXQEP's documentation!
    user_guide
    api
    developer_guide
+   about
 
