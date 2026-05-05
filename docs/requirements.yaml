@@ -8,7 +8,6 @@ dependencies:
     # Base depends
   - python
   - pip
-  - pyzx
   - pydata-sphinx-theme
   - sphinx-design
   - sphinx-copybutton
@@ -19,4 +18,5 @@ dependencies:
     # Pip-only installs
   - pip:
     - -e ../
+    - pyzx
 
