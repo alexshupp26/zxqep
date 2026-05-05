@@ -1,11 +1,11 @@
 ZXQEP
 ==============================
-[//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/zxqep/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/zxqep/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/ZXQEP/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/ZXQEP/branch/main)
 
+A Python package for injecting, propagating, and visualizing errors through quantum circuits using ZX-calculus
 
-A Python package for propagating errors through quantum circuits using ZX-calculus
+### Documentation
+
+See the [Documentation](https://zxqep.readthedocs.io/en/latest/) for a full overview of the features of ZXQEP.
 
 ### Copyright
 
