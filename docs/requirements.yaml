@@ -12,8 +12,6 @@ dependencies:
   - sphinx-design
   - sphinx-copybutton
   - sphinx-autoapi
-  - jupyter-sphinx
-  - ipykernel
 
 
 
