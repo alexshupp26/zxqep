@@ -146,7 +146,7 @@ class ZXQEPGraph:
                                     self.grid[target_r][c].gate = "CZ"
                                     self.grid[target_r][c].partner = r
 
-    def inject_error(self, row, col, err_type, fraction_val):
+    def inject_error(self, row, col, err_type="I", fraction_val=1):
         """Inject a discrete phase error into the wire just before a specified gate.
 
         Parameters
@@ -327,7 +327,7 @@ class ZXQEPGraph:
         """
         g_vis = self.original_graph.clone()
 
-        # Determine circuit bounds and align boundaries globally
+        # Determine circuit bounds and align boundaries globally (hardcoded in for simplicity)
         boundaries = []
         max_gate_col = 0
         min_gate_col = 10000

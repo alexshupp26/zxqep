@@ -52,7 +52,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.extlinks',
     'sphinx_design',
-    'sphinx_copybutton',    
+    'sphinx_copybutton',
+    'jupyter_sphinx',    
 ]
 autoapi_dirs = ['../zxqep']
 autoapi_ignore = ["*/tests/*",
