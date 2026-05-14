@@ -7,7 +7,7 @@ This section contains the API documentation for the classes and functions in ``z
 
 ZXQEPNode Object
 -----------------
-The primary class used to represent, inject, and propagate errors through a grid-based ZX-calculus graph.
+The class used to represent the node objects present in ZXQEPGraph objects
 
 .. autosummary::
    :toctree: _autosummary
@@ -27,7 +27,7 @@ The primary class used to represent, inject, and propagate errors through a grid
 
 ZXQEPGraph Methods
 ------------------
-If you want to explicitly highlight the key methods available on the ``ZXQEPGraph`` object in your main API table, you can list them out here. 
+The methods for ZXQEPGraph objects
 
 .. autosummary::
    :toctree: _autosummary
